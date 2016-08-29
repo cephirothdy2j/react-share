@@ -111,7 +111,7 @@ export const FacebookShareButton = createShareButton('facebook', props => ({
   caption: PropTypes.string,
   description: PropTypes.string,
   title: PropTypes.string.isRequired,
-  picture: PropTypes.string
+  picture: PropTypes.string,
 }, {
   windowWidth: 550,
   windowHeight: 400,
@@ -127,7 +127,7 @@ export const TwitterShareButton = createShareButton('twitter', props => ({
   via: PropTypes.string,
 }, {
   windowWidth: 550,
-  windowHeight: 400
+  windowHeight: 400,
 });
 
 export const GooglePlusShareButton = createShareButton('googlePlus',
